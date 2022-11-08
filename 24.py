@@ -35,7 +35,7 @@ for line in fr:
     if co_sa_robi == "a": vysl += desifrovacka(line)
     else: vysl += sifrovacka(line)
     
-print(vysl)
+#keby sme chceli aj vypísať > print(vysl)
 
 
 with open("vystup_24.txt","w") as vysledok:
